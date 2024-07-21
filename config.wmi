@@ -1,0 +1,3131 @@
+<?xml version='1.0'?>
+<WargameModInstallerConfig>
+
+  <Settings>
+
+    <General>
+	  <WargameVersion Version="RD"/>
+	  <ModName>Pok's Reskins</ModName>
+	  <InstallationBackup Value ="False"/>
+	  <CriticalCommands Value="True"/>
+    </General>
+
+    <UI>
+      <Screens>
+        <WelcomeScreen>
+	  <BackgroundImage Path="Backgrounds\1.jpg"/>
+        </WelcomeScreen>
+        <LocationScreen>
+          <BackgroundImage Path="Backgrounds\2.jpg"/>
+        </LocationScreen>
+        <ComponentSelectionScreen>
+	  <BackgroundImage Path="Backgrounds\3.jpg"/>
+        </ComponentSelectionScreen>
+        <ProgressScreen>
+	  <BackgroundImage Path="Backgrounds\5.jpg"/>
+	</ProgressScreen>
+        <InstallCompletedScreen>
+	  <BackgroundImage Path="Backgrounds\4.jpg"/>
+        </InstallCompletedScreen>
+        <InstallFailedScreen>
+	  <BackgroundImage Path="Backgrounds\4.jpg"/>
+        </InstallFailedScreen>
+        <InstallCanceledScreen>
+	  <BackgroundImage Path="Backgrounds\4.jpg"/>
+        </InstallCanceledScreen>
+      </Screens>
+    </UI>
+  </Settings>
+
+  <InstallCommands>
+
+<Component name="POK" type="Optional" text="Pok's Reskins">
+	<Component name="Nato" type="Optional" text="BLUFOR">
+		<Component name="ANZ" type="Optional" text="ANZAC">	
+			<Component name="Anz1" type="Optional" text="Commandos">
+				<Component name="anz_commando" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_commando_75.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\commando_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="anz_commando2" type="Exclusive" text="Red AUSCAM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_commando_75_2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\commando_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Anz2" type="Optional" text="Diggers, Assault Pioneers, MRAAW, Redeye and TAC HQ">
+				<Component name="anz_digger_75" type="Exclusive" text="AMF camouflage">
+					<ReplaceImage sourcePath="Textures\anz_digger_75.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\diggers_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="anz_digger_75_2" type="Exclusive" text="Red AUSCAM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_digger_75_2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\diggers_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Anz3" type="Optional" text="Diggers '90, Milan and RBS-70">
+				<Component name="anz_digger90" type="Exclusive" text="AUSCAM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_digger_90.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\diggers_90\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="anz_digger90_2" type="Exclusive" text="Red AUSCAM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_digger_90_2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\diggers_90\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="anz_digger90_3" type="Exclusive" text="AMC camouflage">
+					<ReplaceImage sourcePath="Textures\anz_digger_90_3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\diggers_90\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Anz4" type="Optional" text="NZSAS">
+				<Component name="anz_nzsas" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_nzsas.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\nzsas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="anz_nzsas2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_nzsas2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\nzsas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+						<Component name="anz_nzsas3" type="Exclusive" text="ERDL camouflage">
+					<ReplaceImage sourcePath="Textures\anz_nzsas3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\nzsas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Anz5" type="Optional" text="SASR">
+				<Component name="anz_sasr" type="Exclusive" text="Tiger Stripe camouflage">
+					<ReplaceImage sourcePath="Textures\anz_sasr.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\sasr\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="anz_sasr2" type="Exclusive" text="Red AUSCAM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_sasr2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\sasr\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="anz_sasr3" type="Exclusive" text="AMC camouflage">
+					<ReplaceImage sourcePath="Textures\anz_sasr3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\sasr\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+						<Component name="anz_sasr4" type="Exclusive" text="AUSCAM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_sasr4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\sasr\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Anz6" type="Optional" text="NORFORCE">
+				<Component name="anz_scout_75" type="Exclusive" text="AUSCAM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_scouts_75.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\scouts_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="anz_scout_75_2" type="Exclusive" text="Red AUSCAM camouflage">
+					<ReplaceImage sourcePath="Textures\anz_scouts_75_2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\anz\infanterie\scouts_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+		</Component>
+		
+		<Component name="CANADA" type="Optional" text="Canada">
+			<Component name="CANADA1" type="Optional" text="Blowpipe and Javelin">
+				<Component name="Canada_Blowpipe1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\canadian_blowpipe.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\blowpipe\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Blowpipe2" type="Exclusive" text="CADPAT (TW)">
+					<ReplaceImage sourcePath="Textures\canadian_blowpipe2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\blowpipe\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Blowpipe3" type="Exclusive" text="CADPAT (AR)">
+					<ReplaceImage sourcePath="Textures\canadian_blowpipe3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\blowpipe\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="CANADA2" type="Optional" text="Command Squad">
+				<Component name="Canada_Command1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\canadian_command_squad.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Command2" type="Exclusive" text="CADPAT (TW)">
+					<ReplaceImage sourcePath="Textures\canadian_command_squad2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Command3" type="Exclusive" text="CADPAT (AR)">
+					<ReplaceImage sourcePath="Textures\canadian_command_squad3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="CANADA3" type="Optional" text="Pioneers">
+				<Component name="Canada_Genie_de_combat1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\canadian_genie_de_combat.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\genie_de_combat\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Genie_de_combat2" type="Exclusive" text="CADPAT (TW)">
+					<ReplaceImage sourcePath="Textures\canadian_genie_de_combat2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\genie_de_combat\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Genie_de_combat3" type="Exclusive" text="CADPAT (AR)">
+					<ReplaceImage sourcePath="Textures\canadian_genie_de_combat3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\genie_de_combat\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="CANADA4" type="Optional" text="Highlanders">
+				<Component name="Canada_Highlanders1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\canadian_highlander.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\highlanders\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Highlanders2" type="Exclusive" text="CADPAT (TW)">
+					<ReplaceImage sourcePath="Textures\canadian_highlander2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\highlanders\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Highlanders3" type="Exclusive" text="CADPAT (AR)">
+					<ReplaceImage sourcePath="Textures\canadian_highlander3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\highlanders\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="CANADA5" type="Optional" text="Pathfinders and Canadian Airborne">
+				<Component name="Canada_Pathfinders1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\canadian_pathfinders.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\pathfinders\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Pathfinders2" type="Exclusive" text="CADPAT (TW)">
+					<ReplaceImage sourcePath="Textures\canadian_pathfinders2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\pathfinders\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Pathfinders3" type="Exclusive" text="CADPAT (AR)">
+					<ReplaceImage sourcePath="Textures\canadian_pathfinders3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\pathfinders\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="CANADA6" type="Optional" text="Canadian Rifles and Eryx">
+				<Component name="Canada_Riflemen0" type="Exclusive" text="DPM camouflage with eyewear">
+					<ReplaceImage sourcePath="Textures\canadian_riflemen0.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\canadian_rifles\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Riflemen1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\canadian_riflemen.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\canadian_rifles\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Riflemen2" type="Exclusive" text="CADPAT (TW)">
+					<ReplaceImage sourcePath="Textures\canadian_riflemen2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\canadian_rifles\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Riflemen3" type="Exclusive" text="CADPAT (AR)">
+					<ReplaceImage sourcePath="Textures\canadian_riflemen3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\canadian_rifles\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="CANADA7" type="Optional" text="Recce">
+				<Component name="Canada_Scout1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\canadian_scout.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\canadian_scouts\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Scout2" type="Exclusive" text="CADPAT (TW)">
+					<ReplaceImage sourcePath="Textures\canadian_scout2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\canadian_scouts\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_Scout3" type="Exclusive" text="CADPAT (AR)">
+					<ReplaceImage sourcePath="Textures\canadian_scout3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\canadian_scouts\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="CANADA8" type="Optional" text="MAW">
+				<Component name="Canada_maw1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\canadian_maw.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\maw\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_maw2" type="Exclusive" text="CADPAT (TW)">
+					<ReplaceImage sourcePath="Textures\canadian_maw2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\maw\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Canada_maw3" type="Exclusive" text="CADPAT (AR)">
+					<ReplaceImage sourcePath="Textures\canadian_maw3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\maw\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+		</Component>
+		
+		<Component name="Denmark" type="Optional" text="Denmark">
+			<Component name="denmark1" type="Optional" text="Fromandskorpset (Danish Frogman Corps)">
+				<Component name="denmark_fkp1" type="Exclusive" text="Special uniform">
+					<ReplaceImage sourcePath="Textures\dan_fkp.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\dan\infanterie\fkp\tsccombda_combineddatexture01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="denmark2" type="Optional" text="Jaeger (Danish Huntsmen Corps)">
+				<Component name="denmark_jaeger1" type="Exclusive" text="M/84 camouflage">
+					<ReplaceImage sourcePath="Textures\dan_jaeger.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\dan\infanterie\jaeger\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="denmark3" type="Optional" text="Spejderne (Danish Scouts)">
+				<Component name="denmark_gardehussar1" type="Exclusive" text="M/84 camouflage">
+					<ReplaceImage sourcePath="Textures\dan_gardehussar.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\dan\infanterie\gardehussar\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="denmark4" type="Optional" text="Haer Hjemmevaernet (Danish Home Guard)">
+				<Component name="denmark_Haerhjemmevaernet1" type="Exclusive" text="M/84 camouflage">
+					<ReplaceImage sourcePath="Textures\dan_reserve.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\dan\infanterie\haerhjemmevaernet\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="denmark5" type="Optional" text="LLRkt Hamlet and M/93">
+				<Component name="denmark_Hamlet1" type="Exclusive" text="M/84 camouflage">
+					<ReplaceImage sourcePath="Textures\dan_hamlet.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\dan\infanterie\hamlet\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="denmark6" type="Optional" text="Livgarden (Danish Life Guards)">
+				<Component name="denmark_Livgarde1" type="Exclusive" text="M/84 camouflage">
+					<ReplaceImage sourcePath="Textures\dan_livgarde.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\dan\infanterie\livgarde\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="denmark7" type="Optional" text="Dragoner, Stabsdeling and Ildstottegruppe ">
+				<Component name="denmark_Dragon1" type="Exclusive" text="M/84 camouflage">
+					<ReplaceImage sourcePath="Textures\dan_dragon.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\dan\infanterie\dragon\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+		</Component>
+		
+		<Component name="French" type="Optional" text="France">	
+			<Component name="french1" type="Optional" text="Groupe de Cmdt">
+				<Component name="Command Infantry" type="Exclusive" text="Centre Europe camouflage">
+					<ReplaceImage sourcePath="Textures\fr_tscom.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\2emerep\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Command Infantry2" type="Exclusive" text="Daguet camouflage">
+					<ReplaceImage sourcePath="Textures\fr_tscom.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\2emerep\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="french2" type="Optional" text="ATGM Milan 1,2 and 3">
+				<Component name="fr_atgm1" type="Exclusive" text="Centre Europe camouflage">
+					<ReplaceImage sourcePath="Textures\fr_atgm.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\atgm_milan\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="fr_atgm2" type="Exclusive" text="Daguet camouflage">
+					<ReplaceImage sourcePath="Textures\fr_atgm2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\atgm_milan\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="french3" type="Optional" text="Chasseurs, Reservistes and Sapeurs">
+				<Component name="fr_riflemen0" type="Exclusive" text="Centre Europe camouflage with eyewear">
+					<ReplaceImage sourcePath="Textures\fr_riflemen0.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\chasseurs\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="fr_riflemen1" type="Exclusive" text="Centre Europe camouflage">
+					<ReplaceImage sourcePath="Textures\fr_riflemen.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\chasseurs\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="fr_riflemen2" type="Exclusive" text="Daguet camouflage">
+					<ReplaceImage sourcePath="Textures\fr_riflemen2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\chasseurs\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="french4" type="Optional" text="Commando-Marine">
+				<Component name="fr_commandomarine1" type="Exclusive" text="Centre Europe camouflage">
+					<ReplaceImage sourcePath="Textures\fr_commandos_marine.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\commando_marine\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="fr_commandomarine2" type="Exclusive" text="Daguet camouflage">
+					<ReplaceImage sourcePath="Textures\fr_commandos_marine2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\commando_marine\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="french5" type="Optional" text="Hussards">
+				<Component name="fr_hussards1" type="Exclusive" text="Centre Europe camouflage">
+					<ReplaceImage sourcePath="Textures\fr_hussards.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\hussards\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="fr_hussards2" type="Exclusive" text="Daguet camouflage">
+					<ReplaceImage sourcePath="Textures\fr_hussards2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\hussards\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="french6" type="Optional" text="Legion">
+				<Component name="fr_legion1" type="Exclusive" text="Centre Europe camouflage">
+					<ReplaceImage sourcePath="Textures\fr_legion.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\legion\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="fr_legion2" type="Exclusive" text="Daguet camouflage">
+					<ReplaceImage sourcePath="Textures\fr_legion2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\legion\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="french7" type="Optional" text="Mistral">
+				<Component name="fr_manpad1" type="Exclusive" text="Centre Europe camouflage">
+					<ReplaceImage sourcePath="Textures\fr_mistral.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\mistral\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="fr_manpadd2" type="Exclusive" text="Daguet camouflage">
+					<ReplaceImage sourcePath="Textures\fr_mistral2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\mistral\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="french8" type="Optional" text="Commandos Para">
+				<Component name="fr_para_commandos1" type="Exclusive" text="Centre Europe camouflage">
+					<ReplaceImage sourcePath="Textures\fr_para_commandos.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\para_commandos\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="fr_para_commandos2" type="Exclusive" text="Daguet camouflage">
+					<ReplaceImage sourcePath="Textures\fr_para_commandos2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\para_commandos\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="french9" type="Optional" text="RIMa">
+				<Component name="fr_rima1" type="Exclusive" text="Centre Europe camouflage">
+					<ReplaceImage sourcePath="Textures\fr_rima.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\rima\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="fr_rima2" type="Exclusive" text="Daguet camouflage">
+					<ReplaceImage sourcePath="Textures\fr_rima2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\rima\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+		</Component>
+		
+		<Component name="JSDF" type="Optional" text="Japan">
+			<Component name="JSDF1" type="Optional" text="Hudou-Ren (JSDF Light Infantry) with Type II Flecktarn camouflage">
+				<ReplaceImage sourcePath="Textures\jsdf_engineer.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\infanterie\jsdf_engineers\tscother_diffusetexturenoalpha01.tgv"/>
+			   
+			</Component>
+			<Component name="JSDF2" type="Optional" text="Kutei (JSDF Paratroopers)">	
+				<Component name="Kutei1" type="Exclusive" text="Type II Flecktarn camouflage">
+					<ReplaceImage sourcePath="Textures\jsdf_paratrooper.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\infanterie\jsdf_paras\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="Kutei2" type="Exclusive" text="Type II Flecktarn camouflage and face camouflage">
+					<ReplaceImage sourcePath="Textures\jsdf_paratrooper2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\infanterie\jsdf_paras\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>	
+			<Component name="JSDF3" type="Optional" text="Syouyu-Buntai (JSDF Infantry) with Type II Flecktarn camouflage">
+				<ReplaceImage sourcePath="Textures\jsdf_riflemen.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\infanterie\jsdf_riflemen\tscother_diffusetexturenoalpha01.tgv"/>
+			   
+			</Component>
+			<Component name="JSDF4" type="Optional" text="JSDF Rangers with Type II Flecktarn camouflage">
+				<ReplaceImage sourcePath="Textures\jsdf_ranger.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\infanterie\jsdf_rangers\tscother_diffusetexturenoalpha01.tgv"/>
+			   
+			</Component>
+			<Component name="JSDF5" type="Optional" text="Type 90 (Kyu-Maru Shiki) Shion Minase (Maritime Force) mascot">
+				<ReplaceImage sourcePath="Textures\jsdf_type90_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\type_90_kyu-maru\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\jsdf_type90_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\type_90_kyu-maru_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\jsdf_type90_low.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\lods\tscother_diffusetexturenoalpha01.tgv"
+						  column="6"
+						  row="0"/>
+			</Component>
+			<Component name="JSDF6" type="Optional" text="Toyota Chugata (Cargo Truck) Touka Fujisaki (Ground Force) mascot">
+				<ReplaceImage sourcePath="Textures\jsdf_toyota_chugata_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\toyota_chugata\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\jsdf_toyota_chugata_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\toyota_chugata_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\jdsf_toyota_chugata_low.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\lods\tscother_diffusetexturenoalpha01.tgv"
+						  column="5"
+						  row="4"/>
+			</Component>
+			<Component name="JSDF7" type="Optional" text="Cute Guntank (Type 87 SPAAG) Metal Slug mascot ">
+				<ReplaceImage sourcePath="Textures\jsdf_guntank_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\type_87_guntank\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\jsdf_guntank_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\type_87_guntank_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\jsdf_guntank_low.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\lods\tscother_diffusetexturenoalpha01.tgv"
+						  column="6"
+						  row="1"/>
+			</Component>
+			<Component name="JSDF8" type="Optional" text="OH-1 Ninja Amaha Ruri (Air Force) mascot">
+				<ReplaceImage sourcePath="Textures\jsdf_oh1_ninja_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\helicos\oh1_ninja\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\jsdf_oh1_ninja_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\helicos\oh1_ninja_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\jsdf_oh1_ninja_low.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\jap\lods\tscother_diffusetexturenoalpha01.tgv"
+						  column="7"
+						  row="5"/>
+			</Component>
+			<Component name="JSDF9" type="Optional" text="AH-1S Cobra with mascot">
+				<Component name="jsdf_ah-1f_mascot1" type="Exclusive" text="KISARAZU AKANE mascot">
+					<ReplaceImage sourcePath="Textures\jsdf_ah-1f_cobra_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\helicos\ah-1f_cobra\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\jsdf_ah-1f_cobra_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\helicos\ah-1f_cobra_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\jsdf_ah-1f_cobra_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="4"
+							  row="0"/>
+				</Component>
+				<Component name="jsdf_ah-1f_mascot2" type="Exclusive" text="WAKANA KISARAZU mascot">
+					<ReplaceImage sourcePath="Textures\jsdf_ah-1s_cobra_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\helicos\ah-1f_cobra\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\jsdf_ah-1s_cobra_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\helicos\ah-1f_cobra_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\jsdf_ah-1s_cobra_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="4"
+							  row="0"/>
+				</Component>
+			</Component>
+			<Component name="JSDF10" type="Optional" text="Type 89 IFV (Hachi-Kyu Shiki) with mascot">
+				<Component name="jsdf_type89_1" type="Exclusive" text="Samurai mascot">
+					<ReplaceImage sourcePath="Textures\jsdf_type89_ifv_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\type_89_ifv\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\jsdf_type89_ifv_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\type_89_ifv_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\jsdf_type89_ifv_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="7"
+							  row="0"/>
+				</Component>
+				<Component name="jsdf_type89_2" type="Exclusive" text="JSDF mascots">
+					<ReplaceImage sourcePath="Textures\jsdf_type89_ifv_high2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\type_89_ifv\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\jsdf_type89_ifv_mid2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\type_89_ifv_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\jsdf_type89_ifv_low2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\jap\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="7"
+							  row="0"/>
+				</Component>
+			</Component>
+			<Component name="JSDF11" type="Optional" text="AH-1S Cobra with WAKANA KISARAZU mascot (will replace ROK AH-1S)">
+				<ReplaceImage sourcePath="Textures\jsdf_ah-1s_cobra_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah-1f_cobra\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\jsdf_ah-1s_cobra_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah-1f_cobra_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\jsdf_ah-1s_cobra_low.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+						  column="1"
+						  row="3"/>
+			</Component>
+		</Component>
+		
+		<Component name="Netherlanbd" type="Optional" text="Netherland">
+			<Component name="dutch1_1" type="Optional" text="stoottroepen 85">
+				<Component name="dutch_stoot_1" type="Exclusive" text="stoottroepen 85">
+				<ReplaceImage sourcePath="Textures\hol_stoottroepen85.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\stoottroepen\tsccombds_combineddstexture01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch1_2" type="Optional" text="stoottroepen 90">
+				<Component name="dutch_stoot_1" type="Exclusive" text="stoottroepen 90">
+				<ReplaceImage sourcePath="Textures\hol_stoottroepen90.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\stoottroepen\tsccombds_combineddstexture02.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch1_weapon_1" type="Optional" text="stoottroepen weapon">
+				<ReplaceImage sourcePath="Textures\hol_stoottroepen_weapon.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\stoottroepen\tscother_diffusetexturenoalpha01.tgv"/>
+			</Component>
+			<Component name="dutch2_1" type="Optional" text="Marine Corps 85">
+				<Component name="dutch_marine_1" type="Exclusive" text="Marine corps">
+				<ReplaceImage sourcePath="Textures\hol_korps_mariner85.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\korps_mariner\tsccombds_combineddstexture01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch2_2" type="Optional" text="Marine Corps 90">
+				<Component name="dutch_marine_2" type="Exclusive" text="Marine corps">
+				<ReplaceImage sourcePath="Textures\hol_korps_mariner90.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\korps_mariner\tsccombds_combineddstexture02.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch2_weapon_1" type="Optional" text="Marine Corps weapon">
+				<ReplaceImage sourcePath="Textures\hol_korps_mariner_weapon.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\korps_mariner\tscother_diffusetexturenoalpha01.tgv"/>
+			</Component>
+			<Component name="dutch3" type="Optional" text="Commander">
+				<Component name="dutch_commander_1" type="Exclusive" text="Commander">
+				<ReplaceImage sourcePath="Textures\hol_commander.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\commander\tsccombds_combineddstexture01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch4" type="Optional" text="Genie">
+				<Component name="dutch_genie_1" type="Exclusive" text="Genie">
+				<ReplaceImage sourcePath="Textures\hol_genie.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\genie\tsccombds_combineddstexture01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch4_weapon_1" type="Optional" text="Genie weapon">
+				<ReplaceImage sourcePath="Textures\hol_genie_weapon.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\genie\tscother_diffusetexturenoalpha01.tgv"/>
+			</Component>
+			<Component name="dutch5" type="Optional" text="Grenadier">
+				<Component name="dutch_grenadier_1" type="Exclusive" text="Grenadiers">
+				<ReplaceImage sourcePath="Textures\hol_grenadiers.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\grenadiers\tsccombds_combineddstexture01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch6" type="Optional" text="Jager 80">
+				<Component name="dutch_jager_1" type="Exclusive" text="Jager 80">
+				<ReplaceImage sourcePath="Textures\hol_jager_80.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\jager\tsccombds_combineddstexture01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch7" type="Optional" text="Jager 90">
+				<Component name="dutch_jager_2" type="Exclusive" text="Jager 90">
+				<ReplaceImage sourcePath="Textures\hol_jager_90.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\jager\tsccombds_combineddstexture02.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch8" type="Optional" text="Jager Weapon">
+				<Component name="dutch_jager_weapon" type="Exclusive" text="Jager Weapon">
+				<ReplaceImage sourcePath="Textures\hol_jager_weapon.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\jager\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch9" type="Optional" text="KCT">
+				<Component name="dutch_kct_1" type="Exclusive" text="KCT">
+				<ReplaceImage sourcePath="Textures\hol_kct.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\kct\tsccombds_combineddstexture01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch10" type="Optional" text="Huzaren">
+				<Component name="dutch_huzaren_1" type="Exclusive" text="Huzaren">
+				<ReplaceImage sourcePath="Textures\hol_huzaren.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\huzaren\tsccombds_combineddstexture01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="dutch11" type="Optional" text="Natres">
+				<Component name="dutch_natres_1" type="Exclusive" text="Natres">
+				<ReplaceImage sourcePath="Textures\hol_natres.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\hol\infanterie\natres\tsccombds_combineddstexture01.tgv"/>
+				</Component>
+			</Component>
+		</Component>
+		
+		<Component name="Norway" type="Optional" text="Norway">	
+			<Component name="norway1" type="Optional" text="Forsvarets Spesialkommando (Norwegian SOF)">
+				<Component name="norway_fsk1" type="Exclusive" text="M/98 camouflage">
+					<ReplaceImage sourcePath="Textures\nor_fsk.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nor\infanterie\fsk_spesialjegere\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="norway_fsk2" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\nor_fsk2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nor\infanterie\fsk_spesialjegere\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="norway2" type="Optional" text="Fallskjermjeger (Norwegian Paratroopers)">
+				<Component name="norway_fallskjermjeger1" type="Exclusive" text="M/98 camouflage">
+					<ReplaceImage sourcePath="Textures\nor_fallskjermjeger.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nor\infanterie\fallskjermjeger\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="norway3" type="Optional" text="Stormer (Norwegian Assault Mechanized Infantry)">
+				<Component name="norway_storm1" type="Exclusive" text="M/98 camouflage">
+					<ReplaceImage sourcePath="Textures\nor_storm.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nor\infanterie\storm\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="norway4" type="Optional" text="Marinejegerkommandoen (Norwegian Maritime SOF)">
+				<Component name="norway_marinejegeerkommandoen1" type="Exclusive" text="M/98 camouflage">
+					<ReplaceImage sourcePath="Textures\nor_marinejegeerkommandoen.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nor\infanterie\marinejegeerkommandoen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="norway5" type="Optional" text="Gevaermenn (Norwegian Riflemen) and Kommandoplass (Norwegian HQ)">
+				<Component name="norway_grenader1" type="Exclusive" text="M/98 camouflage">
+					<ReplaceImage sourcePath="Textures\nor_grenader.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nor\infanterie\grenader\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="norway6" type="Optional" text="Stormingeniorer (Norwegian Combat Engineers)">
+				<Component name="norway_stormingeniorer1" type="Exclusive" text="M/98 camouflage">
+					<ReplaceImage sourcePath="Textures\nor_stormingeniorer.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nor\infanterie\stormingeniorer\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="norway7" type="Optional" text="RBS 70 and RBS 70 Mk.2">
+				<Component name="norway_nor_rbs_70_1" type="Exclusive" text="M/98 camouflage">
+					<ReplaceImage sourcePath="Textures\nor_rbs_70.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nor\infanterie\rbs_70\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="norway8" type="Optional" text="Landheimevernet (Norwegian Home Guard)">
+				<Component name="norway_reserve1" type="Exclusive" text="M/98 camouflage">
+					<ReplaceImage sourcePath="Textures\nor_reserve.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nor\infanterie\heimevernet\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+		</Component>
+		
+		<Component name="ROK" type="Optional" text="Republic of Korea">
+			<Component name="ROK1" type="Optional" text="Teukjeonsa (ROKA Special Warfare Command)">
+				<Component name="black1" type="Exclusive" text="ROK MARPAT camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_blackhat4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\black_berets\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="black2" type="Exclusive" text="Granite B camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_blackhat.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\black_berets\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="black3" type="Exclusive" text="'90 Woodland camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_blackhat2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\black_berets\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="black4" type="Exclusive" text="Woodland camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_blackhat3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\black_berets\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ROK2" type="Optional" text="Susaek-dae (ROK Scouts)">
+				<Component name="scout_rok1" type="Exclusive" text="Granite B camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_scout.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\scouts\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="scout_rok2" type="Exclusive" text="'90 Woodland camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_scout2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\scouts\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="scout_rok3" type="Exclusive" text="Woodland camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_scout3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\scouts\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ROK3" type="Optional" text="UDT/SEAL (ROKN Special Warfare Flotilla)">
+				<Component name="udt_seal1" type="Exclusive" text="ROK MARPAT camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_seal.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\udt_seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				<Component name="udt_seal2" type="Exclusive" text="Granite B camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_seal4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\udt_seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				<Component name="udt_seal3" type="Exclusive" text="'90 Woodland camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_seal2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\udt_seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				<Component name="udt_seal4" type="Exclusive" text="Woodland camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_seal3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\udt_seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+			</Component>
+			<Component name="ROK4" type="Optional" text="Gongbyung (ROK Sappers)">
+				<Component name="sapper_rok1" type="Exclusive" text="Granite B camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_sapper.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\sappers\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				<Component name="sapper_rok2" type="Exclusive" text="'90 Woodland camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_sapper2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\sappers\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				<Component name="sapper_rok3" type="Exclusive" text="Woodland camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_sapper3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\sappers\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+			</Component>
+			<Component name="ROK5" type="Optional" text="Sochong-su (ROKA Riflemen) and Specialized teams">
+				<Component name="Sochong1" type="Exclusive" text="Granite B camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_riflemen.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\riflemen_75\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				<Component name="Sochong2" type="Exclusive" text="'90 Woodland camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_riflemen2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\riflemen_75\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				<Component name="Sochong3" type="Exclusive" text="Woodland camouflage">\
+					<ReplaceImage sourcePath="Textures\rok_riflemen3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\riflemen_75\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+			</Component>
+			<Component name="ROK6" type="Optional" text="Haebyung (ROK Marine Corps)">	
+				<Component name="ROKMC1" type="Exclusive" text="Digital Tiger Stripe camouflage">
+					<ReplaceImage sourcePath="Textures\rok_marine.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\marines_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ROKMC2" type="Exclusive" text="Digital Tiger Stripe camouflage and face camouflage">
+					<ReplaceImage sourcePath="Textures\rok_marine2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\marines_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ROKMC3" type="Exclusive" text="'90 Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\rok_marine3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\marines_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ROKMC4" type="Exclusive" text="'90 Woodland camouflage and face camouflage">
+					<ReplaceImage sourcePath="Textures\rok_marine4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\marines_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ROKMC5" type="Exclusive" text="Turtle Shell camouflage">
+					<ReplaceImage sourcePath="Textures\rok_marine5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\marines_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ROKMC6" type="Exclusive" text="Turtle Shell camouflage and face camouflage">
+					<ReplaceImage sourcePath="Textures\rok_marine6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\marines_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ROKMC7" type="Exclusive" text="Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\rok_marine7.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\marines_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ROKMC8" type="Exclusive" text="Woodland camouflage and face camouflage">
+					<ReplaceImage sourcePath="Textures\rok_marine8.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\marines_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ROK7" type="Optional" text="Yebigun (ROK Homeland Reserve Forces) with Duck Hunter camouflage">
+				<Component name="rok_reserve_1" type="Exclusive" text="Yebigun (ROK Homeland Reserve Forces) with Duck Hunter camouflage">
+				<ReplaceImage sourcePath="Textures\rok_reserve.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\homeland_reserve\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="rok_reserve_2" type="Exclusive" text="Yebigun (ROK Homeland Reserve Forces) with Woodland camouflage">
+				<ReplaceImage sourcePath="Textures\rok_reserve2.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+						  targetContentPath="pc\texture\assets\3d\units\rok\infanterie\homeland_reserve\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ROK8" type="Optional" text="AH-1T with Digital camouflage">
+				<ReplaceImage sourcePath="Textures\rok_ah-1t_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\helicos\ah-1t\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\rok_ah-1t_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\helicos\ah-1t_mid\tscother_diffusetexturenoalpha01.tgv"/>			  
+				<ReplaceImageTile sourcePath="Textures\rok_ah-1t_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rok\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="1"
+							  row="1"/>
+			</Component>
+		</Component>
+		
+		<Component name="SWE" type="Optional" text="Sweden">	
+				<Component name="swe1" type="Optional" text="Pansarskytte (Swedish Mechanized Infantry) and Stabsgrupp (Swede HQ)">
+					<Component name="swe_pansarskytte1" type="Exclusive" text="M90 Splinter camouflage">
+						<ReplaceImage sourcePath="Textures\swe_pansarskytte.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\infanterie\pansarskytte\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				</Component>
+				<Component name="swe2" type="Optional" text="Kustjagare (Swedish SOF)">
+					<Component name="swe_kustjaegarna1" type="Exclusive" text="M90 Splinter camouflage">
+						<ReplaceImage sourcePath="Textures\swe_kustjaegarna.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\infanterie\kustjaegarna\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				</Component>
+				<Component name="swe3" type="Optional" text="Hemvarnsman (Swedish Home Guard)">
+					<Component name="swe_hemvaernet1" type="Exclusive" text="M90 Splinter camouflage">
+						<ReplaceImage sourcePath="Textures\swe_hemvaernet.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\infanterie\hemvaernet\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				</Component>
+				<Component name="swe4" type="Optional" text="Norrlandsjagare (Swedish Mountain Infantry)">
+					<Component name="swe_norrlandsjaegare1" type="Exclusive" text="M90 Splinter camouflage">
+						<ReplaceImage sourcePath="Textures\swe_norrlandsjaegare.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\infanterie\norrlandsjaegare\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				</Component>
+				<Component name="swe5" type="Optional" text="Pvgrp RBS-56">
+					<Component name="swe_rbs56_1" type="Exclusive" text="M90 Splinter camouflage">
+						<ReplaceImage sourcePath="Textures\swe_rbs56.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\infanterie\rbs-56\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				</Component>
+				<Component name="swe6" type="Optional" text="Lvgrp RBS-70 and 90">
+					<Component name="swe_rbs70_1" type="Exclusive" text="M90 Splinter camouflage">
+						<ReplaceImage sourcePath="Textures\swe_rbs70.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\infanterie\rbs-70\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				</Component>
+				<Component name="swe7" type="Optional" text="Fallskarmsjagare (Swedish Paratroopers)">
+					<Component name="swe_fallskarmsjagarna_1" type="Exclusive" text="M90 Splinter camouflage">
+						<ReplaceImage sourcePath="Textures\swe_fallskarmsjagarna.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\infanterie\fallskarmsjagarna\tscother_diffusetexturenoalpha01.tgv"/>
+					</Component>
+				</Component>
+				<Component name="swe8" type="Optional" text="Strv 121">
+					<Component name="strv121_1" type="Exclusive" text="Strv 121 Veteran">
+					<ReplaceImage sourcePath="Textures\swe_strv121_high_veteran.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\leopard_2_a4\tsccombds_combineddstexture01.tgv"/>  
+					<ReplaceImage sourcePath="Textures\swe_strv121_mid_veteran.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\leopard_2_a4_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\swe_strv121_low_veteran.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="1"
+								  row="4"/>
+					</Component>
+					<Component name="strv121_2" type="Exclusive" text="Strv 121 'The Dark Lord' Edition">
+					<ReplaceImage sourcePath="Textures\swe_strv121_high.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\leopard_2_a4\tsccombds_combineddstexture01.tgv"/>  
+					<ReplaceImage sourcePath="Textures\swe_strv121_mid.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\leopard_2_a4_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\swe_strv121_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\swe\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="1"
+								  row="4"/>
+					</Component>
+				</Component>
+		</Component>
+		
+		<Component name="UK" type="Optional" text="United Kingdom">	
+			<Component name="uk1" type="Optional" text="Fusiliers">
+				<Component name="ukRiflemen0" type="Exclusive" text="DPM camouflage with eyewear">
+					<ReplaceImage sourcePath="Textures\uk_riflemen0.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\fusiliers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukRiflemen1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_riflemen.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\fusiliers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukRiflemen2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_riflemen2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\fusiliers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukRiflemen3" type="Exclusive" text="Multi Terrain Pattern">
+					<ReplaceImage sourcePath="Textures\uk_riflemen3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\fusiliers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukRiflemen4" type="Exclusive" text="Modern Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_riflemen4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\fusiliers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="uk2" type="Optional" text="Green Jacket and HQ Section">
+				<Component name="greenJacket1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_greenjacket.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\green_jacket\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="greenJacket2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_greenjacket2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\green_jacket\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="greenJacket3" type="Exclusive" text="Multi Terrain Pattern">
+					<ReplaceImage sourcePath="Textures\uk_greenjacket3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\green_jacket\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="greenJacket4" type="Exclusive" text="Modern Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_greenjacket4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\green_jacket\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="uk3" type="Optional" text="Gurkhas">
+				<Component name="ukGurkhas1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_gurkhas.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\gurkhas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukGurkhas2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_gurkhas2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\gurkhas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukGurkhas3" type="Exclusive" text="Multi Terrain Pattern">
+					<ReplaceImage sourcePath="Textures\uk_gurkhas3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\gurkhas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukGurkhas4" type="Exclusive" text="Hybrid DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_gurkhas4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\gurkhas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="uk4" type="Optional" text="LAAD Javelin">
+				<Component name="ukJavelin1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_javelin.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\javelin\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukJavelin2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_javelin2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\javelin\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukJavelin3" type="Exclusive" text="Multi Terrain Pattern">
+					<ReplaceImage sourcePath="Textures\uk_javelin3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\javelin\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukJavelin4" type="Exclusive" text="Modern Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_javelin4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\javelin\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="uk5" type="Optional" text="LAAD Blowpipe">
+				<Component name="ukBlowpipe1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_laad_blowpipe.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\laad_blowpipe\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukBlowpipe2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_laad_blowpipe2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\laad_blowpipe\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukBlowpipe3" type="Exclusive" text="Multi Terrain Pattern">
+					<ReplaceImage sourcePath="Textures\uk_laad_blowpipe3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\laad_blowpipe\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukBlowpipe4" type="Exclusive" text="Modern Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_laad_blowpipe4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\laad_blowpipe\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="uk6" type="Optional" text="Milan 1 and 2">
+				<Component name="ukAtgm1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_milanf11.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\milan_f1\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukAtgm2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_milanf12.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\milan_f1\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukAtgm3" type="Exclusive" text="Multi Terrain Pattern">
+					<ReplaceImage sourcePath="Textures\uk_milanf13.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\milan_f1\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukAtgm4" type="Exclusive" text="Modern DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_milanf14.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\milan_f1\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="uk7" type="Optional" text="Paratroopers">
+				<Component name="ukParatroopers1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_paratroopers.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\paratroopers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukParatroopers2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_paratroopers2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\paratroopers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukParatroopers3" type="Exclusive" text="Multi Terrain Pattern">
+					<ReplaceImage sourcePath="Textures\uk_paratroopers3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\paratroopers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukParatroopers4" type="Exclusive" text="Hybrid DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_paratroopers4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\paratroopers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="uk8" type="Optional" text="Royal Marines">
+				<Component name="ukCommandos1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_commandos.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\rm_commandos\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukCommandos2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_commandos2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\rm_commandos\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukCommandos3" type="Exclusive" text="Multi Terrain Pattern">
+					<ReplaceImage sourcePath="Textures\uk_commandos3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\rm_commandos\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukCommandos4" type="Exclusive" text="Modern Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_commandos4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\rm_commandos\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="uk9" type="Optional" text="SAS and SBS">
+				<Component name="ukSAS1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_sas.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\sas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukSAS2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_sas2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\sas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukSAS3" type="Exclusive" text="Multi Terrain Pattern">
+					<ReplaceImage sourcePath="Textures\uk_sas3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\sas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukSAS4" type="Exclusive" text="BlackOps Uniform">
+					<ReplaceImage sourcePath="Textures\uk_sas4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\sas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukSAS5" type="Exclusive" text="Hybrid DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_sas5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\sas\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="uk10" type="Optional" text="Territorials">
+				<Component name="ukterritorials1" type="Exclusive" text="DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_territorials.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\territorials\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukterritorials2" type="Exclusive" text="Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_territorials2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\territorials\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukterritorials3" type="Exclusive" text="Multi Terrain Pattern">
+					<ReplaceImage sourcePath="Textures\uk_territorials3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\territorials\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ukterritorials4" type="Exclusive" text="Modern Desert DPM camouflage">
+					<ReplaceImage sourcePath="Textures\uk_territorials4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\territorials\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="uk11" type="Optional" text="Cheiftain Mk11 with desert camouflage">
+					<ReplaceImage sourcePath="Textures\uk_cheiftain_mk11_desert_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\chieftain_mk_11\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\uk_cheiftain_mk11_desert_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\chieftain_mk_11_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\uk_cheiftain_mk11_desert_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="7"
+							  row="7"/>
+			</Component>
+			<Component name="uk12" type="Optional" text="Chanllenger 1 Mk3">
+				<Component name="challenger1_mk3_vet" type="Exclusive" text="Chanllenger 1 Mk3 Veteran">
+					<ReplaceImage sourcePath="Textures\uk_challenger_mk3_high_veteran.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\challenger_1_mk3\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\uk_challenger_mk3_mid_veteran.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\challenger_1_mk3_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\uk_challenger_mk3_low_veteran.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\lods\tscother_diffusetexturenoalpha02.tgv"
+							  column="0"
+							  row="1"/>
+				</Component>
+			</Component>
+			<Component name="uk13" type="Optional" text="FV101 Scorpion and FV107 Scimitar with desert camouflage">
+					<ReplaceImage sourcePath="Textures\uk_fv101scorpion_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\fv101_scorpion\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\uk_fv101scorpion_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\fv101_scorpion_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\uk_fv101scorpion_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="2"
+							  row="7"/>
+			</Component>
+			<Component name="uk14" type="Optional" text="Stormer HMV">
+				<Component name="Stormer_Hmv_desert1" type="Exclusive" text="Stormer Hmv desert">
+					<ReplaceImage sourcePath="Textures\uk_stormer_hmv_high_desert.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\stormer_hmv\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\uk_stormer_hmv_high_desert_weapon.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\stormer_hmv\tsccombds_combineddstexture02.tgv"/>
+					<ReplaceImage sourcePath="Textures\uk_stormer_hmv_mid_desert.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\stormer_hmv_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\uk_stormer_hmv_low_desert.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="5"
+							  row="1"/>
+				</Component>
+			</Component>
+		</Component>
+		<Component name="USA" type="Optional" text="USA">
+			<Component name="m16a2" type="Optional" text="M16A2 for Riflemen">
+				<ReplaceImage sourcePath="Textures\us_m16a2.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\ammo\armes\tscother_diffusetexturenoalpha01.tgv"/>
+			</Component>
+			<Component name="Usa1" type="Optional" text="Riflemen">
+				<Component name="usriflemen1" type="Exclusive" text="ACU camouflage">
+					<ReplaceImage sourcePath="Textures\us_riflemen.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\riflemen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usriflemen2" type="Exclusive" text="M81 Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\us_riflemen2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\riflemen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usriflemen3" type="Exclusive" text="Tricolor Desert camouflage">
+					<ReplaceImage sourcePath="Textures\us_riflemen3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\riflemen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usriflemen4" type="Exclusive" text="Multicam camouflage">
+					<ReplaceImage sourcePath="Textures\us_riflemen4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\riflemen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usriflemen5" type="Exclusive" text="ACU camouflage and PT belt">
+					<ReplaceImage sourcePath="Textures\us_riflemen5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\riflemen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usriflemen6" type="Exclusive" text="MARPAT Woodland">
+					<ReplaceImage sourcePath="Textures\us_riflemen6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\riflemen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usriflemen7" type="Exclusive" text="MARPAT Desert">
+					<ReplaceImage sourcePath="Textures\us_riflemen7.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\riflemen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usriflemen8" type="Exclusive" text="Delta Equipment (Custom)">
+					<ReplaceImage sourcePath="Textures\us_riflemen8.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\riflemen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Usa2" type="Optional" text="LAAD">
+				<Component name="uslaad1" type="Exclusive" text="ACU camouflage">
+					<ReplaceImage sourcePath="Textures\us_laad_stinger.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\laad_stinger\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="uslaad2" type="Exclusive" text="M81 Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\us_laad_stinger2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\laad_stinger\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="uslaad3" type="Exclusive" text="Tricolor Desert camouflage">
+					<ReplaceImage sourcePath="Textures\us_laad_stinger3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\laad_stinger\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="uslaad4" type="Exclusive" text="Multicam camouflage">
+					<ReplaceImage sourcePath="Textures\us_laad_stinger4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\laad_stinger\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="uslaad5" type="Exclusive" text="ACU camouflage and PT belt">
+					<ReplaceImage sourcePath="Textures\us_laad_stinger5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\laad_stinger\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="uslaad6" type="Exclusive" text="MARPAT Woodland">
+					<ReplaceImage sourcePath="Textures\us_laad_stinger6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\laad_stinger\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="uslaad7" type="Exclusive" text="MARPAT Desert">
+					<ReplaceImage sourcePath="Textures\us_laad_stinger7.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\laad_stinger\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Usa3" type="Optional" text="Light Infantry and Cavalry Scout">
+				<Component name="usatgm1" type="Exclusive" text="ACU camouflage">
+					<ReplaceImage sourcePath="Textures\us_atgm_dragon.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\atgm_dragon\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usatgm2" type="Exclusive" text="M81 Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\us_atgm_dragon2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\atgm_dragon\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usatgm3" type="Exclusive" text="Tricolor Desert camouflage">
+					<ReplaceImage sourcePath="Textures\us_atgm_dragon3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\atgm_dragon\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usatgm4" type="Exclusive" text="Multicam camouflage">
+					<ReplaceImage sourcePath="Textures\us_atgm_dragon4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\atgm_dragon\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usatgm5" type="Exclusive" text="ACU camouflage and PT belt">
+					<ReplaceImage sourcePath="Textures\us_atgm_dragon5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\atgm_dragon\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usatgm6" type="Exclusive" text="MARPAT Woodland">
+					<ReplaceImage sourcePath="Textures\us_atgm_dragon6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\atgm_dragon\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usatgm7" type="Exclusive" text="MARPAT Desert">
+					<ReplaceImage sourcePath="Textures\us_atgm_dragon7.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\atgm_dragon\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usatgm8" type="Exclusive" text="Delta Equipment (Custom)">
+					<ReplaceImage sourcePath="Textures\us_atgm_dragon8.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\atgm_dragon\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usatgm9" type="Exclusive" text="Desert Night camouflage">
+					<ReplaceImage sourcePath="Textures\us_atgm_dragon9.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\atgm_dragon\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Usa4" type="Optional" text="TACOM">
+				<Component name="usTacom1" type="Exclusive" text="ACU camouflage">
+					<ReplaceImage sourcePath="Textures\us_command_squad.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usTacom2" type="Exclusive" text="M81 Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\us_command_squad2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usTacom3" type="Exclusive" text="Tricolor Desert camouflage">
+					<ReplaceImage sourcePath="Textures\us_command_squad3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usTacom4" type="Exclusive" text="Multicam camouflage">
+					<ReplaceImage sourcePath="Textures\us_command_squad4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usTacom5" type="Exclusive" text="ACU camouflage and PT Belt">
+					<ReplaceImage sourcePath="Textures\us_command_squad5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usTacom6" type="Exclusive" text="MARPAT Woodland">
+					<ReplaceImage sourcePath="Textures\us_command_squad6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usTacom7" type="Exclusive" text="MARPAT Desert">
+					<ReplaceImage sourcePath="Textures\us_command_squad7.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Usa5" type="Optional" text="US Marines and SMAW">
+				<Component name="USMC0" type="Exclusive" text="MARPAT Woodland with eyewear">
+					<ReplaceImage sourcePath="Textures\us_marines0.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="USMC1" type="Exclusive" text="MARPAT Woodland">
+					<ReplaceImage sourcePath="Textures\us_marines.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="USMC2" type="Exclusive" text="MARPAT Desert">
+					<ReplaceImage sourcePath="Textures\us_marines_desert.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="USMC3" type="Exclusive" text="M81 Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\us_marines3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="USMC4" type="Exclusive" text="M81 Woodland camouflage and plain green vest">
+					<ReplaceImage sourcePath="Textures\us_marines4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="USMC5" type="Exclusive" text="Tricolor Desert camouflage">
+					<ReplaceImage sourcePath="Textures\us_marines5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="USMC6" type="Exclusive" text="Multicam camouflage">
+					<ReplaceImage sourcePath="Textures\us_marines6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="USMC7" type="Exclusive" text="MARPAT Woodland and PT belt">
+					<ReplaceImage sourcePath="Textures\us_marines7.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="USMC8" type="Exclusive" text="MARPAT Desert and PT belt">
+					<ReplaceImage sourcePath="Textures\us_marines_desert2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="USMC9" type="Exclusive" text="Desert Storm Chemical unit">
+					<ReplaceImage sourcePath="Textures\us_marines8.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="USMC10" type="Exclusive" text="Woodland Chemical unit">
+					<ReplaceImage sourcePath="Textures\us_marines9.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Usa6" type="Optional" text="Assault Engineers">
+				<Component name="usFlamers1" type="Exclusive" text="ACU camouflage">
+					<ReplaceImage sourcePath="Textures\us_assault_engineers.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\assault_engineers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usFlamers2" type="Exclusive" text="M81 Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\us_assault_engineers2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\assault_engineers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usFlamers3" type="Exclusive" text="Tricolor Desert camouflage">
+					<ReplaceImage sourcePath="Textures\us_assault_engineers3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\assault_engineers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usFlamers4" type="Exclusive" text="Multicam camouflage">
+					<ReplaceImage sourcePath="Textures\us_assault_engineers4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\assault_engineers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usFlamers5" type="Exclusive" text="ACU camouflage and PT belt">
+					<ReplaceImage sourcePath="Textures\us_assault_engineers5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\assault_engineers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usFlamers6" type="Exclusive" text="MARPAT Woodland">
+					<ReplaceImage sourcePath="Textures\us_assault_engineers6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\assault_engineers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>  
+				<Component name="usFlamers7" type="Exclusive" text="MARPAT Desert">
+					<ReplaceImage sourcePath="Textures\us_assault_engineers7.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\assault_engineers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component> 
+			</Component>
+			<Component name="Usa7" type="Optional" text="Rangers">
+				<Component name="usRanger1" type="Exclusive" text="ACU camouflage">
+					<ReplaceImage sourcePath="Textures\us_rangers.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\rangers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usRanger2" type="Exclusive" text="M81 Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\us_rangers2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\rangers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usRanger3" type="Exclusive" text="Tricolor Desert camouflage">
+					<ReplaceImage sourcePath="Textures\us_rangers3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\rangers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usRanger4" type="Exclusive" text="Multicam camouflage">
+					<ReplaceImage sourcePath="Textures\us_rangers4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\rangers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usRanger5" type="Exclusive" text="ACU camouflage and PT belt">
+					<ReplaceImage sourcePath="Textures\us_rangers5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\rangers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usRanger6" type="Exclusive" text="MARPAT Woodland">
+					<ReplaceImage sourcePath="Textures\us_rangers6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\rangers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usRanger7" type="Exclusive" text="MARPAT Desert">
+					<ReplaceImage sourcePath="Textures\us_rangers7.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\rangers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usRanger8" type="Exclusive" text="UCP-D camouflage">
+					<ReplaceImage sourcePath="Textures\us_rangers8.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\rangers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Usa8" type="Optional" text="Delta Force">
+				<Component name="usDelta1" type="Exclusive" text="AOR camouflage">
+					<ReplaceImage sourcePath="Textures\us_delta.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta2" type="Exclusive" text="AOR camouflage and helmet">
+					<ReplaceImage sourcePath="Textures\us_delta2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta3" type="Exclusive" text="Multicam camouflage">
+					<ReplaceImage sourcePath="Textures\us_delta3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta4" type="Exclusive" text="Multicam camoflage and helmet">
+					<ReplaceImage sourcePath="Textures\us_delta4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta5" type="Exclusive" text="Tricolor Desert camouflage">
+					<ReplaceImage sourcePath="Textures\us_delta5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta6" type="Exclusive" text="Tricolor Desert camouflage and helmet">
+					<ReplaceImage sourcePath="Textures\us_delta6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta7" type="Exclusive" text="M81 Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\us_delta7.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta8" type="Exclusive" text="M81 Woodland camouflage and helmet">
+					<ReplaceImage sourcePath="Textures\us_delta8.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>	
+				<Component name="usDelta9" type="Exclusive" text="AOR camouflage and PT belt">
+					<ReplaceImage sourcePath="Textures\us_delta9.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta10" type="Exclusive" text="AOR camouflage, helmet and PT belt">
+					<ReplaceImage sourcePath="Textures\us_delta10.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta11" type="Exclusive" text="MARPAT Woodland">
+					<ReplaceImage sourcePath="Textures\us_delta11.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta12" type="Exclusive" text="MARPAT Woodland and helmet">
+					<ReplaceImage sourcePath="Textures\us_delta12.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta13" type="Exclusive" text="MARPAT Desert">
+					<ReplaceImage sourcePath="Textures\us_delta13.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta14" type="Exclusive" text="MARPAT Desert and helmet">
+					<ReplaceImage sourcePath="Textures\us_delta14.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta15" type="Exclusive" text="UCP-D camouflage">
+					<ReplaceImage sourcePath="Textures\us_delta15.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta16" type="Exclusive" text="UCP-D camouflage and helmet">
+					<ReplaceImage sourcePath="Textures\us_delta16.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta17" type="Exclusive" text="Urban camouflage and ACU helmet">
+					<ReplaceImage sourcePath="Textures\us_delta17.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usDelta18" type="Exclusive" text="Urban camouflage">
+					<ReplaceImage sourcePath="Textures\us_delta18.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\delta\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Usa9" type="Optional" text="Navy SEALs">
+				<Component name="usSeal1" type="Exclusive" text="AOR camouflage">
+					<ReplaceImage sourcePath="Textures\us_seal_75.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usSeal2" type="Exclusive" text="Tricolor Desert camouflage">
+					<ReplaceImage sourcePath="Textures\us_seal_75_2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>	
+				<Component name="usSeal3" type="Exclusive" text="Tiger Stripe camouflage">
+					<ReplaceImage sourcePath="Textures\us_seal_75_3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usSeal4" type="Exclusive" text="Multicam camouflage">
+					<ReplaceImage sourcePath="Textures\us_seal_75_4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usSeal5" type="Exclusive" text="Multicam camouflage +PT belt">
+					<ReplaceImage sourcePath="Textures\us_seal_75_5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usSeal6" type="Exclusive" text="MARPAT Woodland">
+					<ReplaceImage sourcePath="Textures\us_seal_75_6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usSeal7" type="Exclusive" text="MARPAT Desert">
+					<ReplaceImage sourcePath="Textures\us_seal_75_7.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usSeal8" type="Exclusive" text="PMC Contractor Uniform">
+					<ReplaceImage sourcePath="Textures\us_seal_75_8.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="usSeal9" type="Exclusive" text="M81 Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\us_seal_75_9.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\seal_75\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="Usa10" type="Optional" text="Pilot skin (replaces the US Marines skin)">
+				<ReplaceImageTile sourcePath="Textures\pilot.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"
+							  column="0"
+							  row="0"/>
+			</Component>
+			<Component name="Usa11" type="Optional" text="Pilot skin for AH-64A Apache">
+				<ReplaceImageTile sourcePath="Textures\us_apache_pilot.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah-64a_apache\tscother_diffusetexturenoalpha02.tgv"
+							  column="0"
+							  row="0"/>
+			</Component>
+			<Component name="Usa12" type="Optional" text="AH-1T SeaCobra IP with Marine markings">
+				<ReplaceImage sourcePath="Textures\us_ah-1t_seacobraip_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah1t_sea_cobra_ip\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_ah-1t_seacobraip_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah1t_sea_cobra_ip_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_ah-1t_seacobraip_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+							  column="3"
+							  row="6"/>
+			</Component>
+			<Component name="Usa13" type="Optional" text="AH-1J Twin Cobra with Marine markings">
+				<ReplaceImage sourcePath="Textures\us_ah-1j_twincobra_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah-1j_twin_cobra\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_ah-1j_twincobra_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah-1j_twin_cobra_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_ah-1j_twincobra_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="2"
+							  row="3"/>
+			</Component>
+			<Component name="Usa14" type="Optional" text="AH-64A Apache 'Punisher' skin">
+				<ReplaceImage sourcePath="Textures\us_apache_ah64a_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah-64a_apache\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_apache_ah64a_high_noalpha.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah-64a_apache\tscother_diffusetexturenoalpha01.tgv"/>	
+				<ReplaceImage sourcePath="Textures\us_apache_ah64a_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah-64a_apache_mid\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_apache_ah64a_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="1"
+							  row="5"/>
+			</Component>
+			<Component name="Usa15" type="Optional" text="AH-64D Longbow 'Peacekeeper' skin">
+				<ReplaceImage sourcePath="Textures\us_apache_ah64d_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah-64d_apache_longbow\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_apache_ah64d_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ah-64d_apache_longbow_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_apache_ah64d_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+							  column="5"
+							  row="6"/>
+			</Component>
+			<Component name="Usa16" type="Optional" text="CH-47 Chinook 'Pegasus' skin">
+				<ReplaceImage sourcePath="Textures\us_chinook_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ch-47b_chinook\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_chinook_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\us\helicos\ch-47b_chinook_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_chinook_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+							  column="1"
+							  row="6"/>
+			</Component>
+			<Component name="Usa17" type="Optional" text="F-14 Tomcat from VF-1 'Wolfpack'">
+				<ReplaceImage sourcePath="Textures\us_f14tomcat_high.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\usmc\avions\f14_tomcat\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_f14tomcat_mid.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\usmc\avions\f14_tomcat_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_f14tomcat_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\usmc\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="2"
+							  row="3"/>
+			</Component>
+			<Component name="Usa18" type="Optional" text="USMC LAV-25">
+				<Component name="us_lav-25_woodland" type="Exclusive" text="Woodland KFOR">
+				<ReplaceImage sourcePath="Textures\us_lav25mc_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\usmc\lav_25\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_lav25mc_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\usmc\lav_25_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_lav25mc_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\usmc\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="2"
+								  row="2"/>
+				</Component>
+			</Component>
+			<Component name="Usa19" type="Optional" text="M163 Pivads">
+				<Component name="us_m163_pivads_desert" type="Exclusive" text="Desert Camouflage">
+				<ReplaceImage sourcePath="Textures\us_m163pivads_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m163_pivads\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m163pivads_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m163_pivads_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m163pivads_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="0"
+								  row="1"/>
+				</Component>
+			</Component>
+			<Component name="Usa20" type="Optional" text="M48A1 Chapparal">
+				<Component name="us_m48chaparral_1" type="Exclusive" text="Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\us_m48chaparral_high2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m48_chaparral\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\us_m48chaparral_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m48_chaparral\tsccombda_combineddatexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\us_m48chaparral_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m48_chaparral_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImage sourcePath="Textures\us_m48chaparral_mid2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m48_chaparral_mid\tsccombda_combineddatexture01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\us_m48chaparral_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="0"
+								  row="7"/>
+				</Component>
+				<Component name="us_m48chaparral_2" type="Exclusive" text="Olive Drab">
+					<ReplaceImage sourcePath="Textures\us_m48chaparral_plain_green_high2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m48_chaparral\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\us_m48chaparral_plain_green_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m48_chaparral\tsccombda_combineddatexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\us_m48chaparral_plain_green_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m48_chaparral_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImage sourcePath="Textures\us_m48chaparral_plain_green_mid2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m48_chaparral_mid\tsccombda_combineddatexture01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\us_m48chaparral_plain_green_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="0"
+								  row="7"/>
+				</Component>
+			</Component>
+			<Component name="Usa21" type="Optional" text="M48A3 Chapparal in Urban camouflage">
+				<ReplaceImage sourcePath="Textures\us_m48chaparrala3_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m48a3_chaparral\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m48chaparrala3_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m48a3_chaparral_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m48chaparrala3_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="7"
+								  row="6"/>
+			</Component>
+			<Component name="Usa22" type="Optional" text="CH-47 Super Chinook 'Hoplite' skin">
+				<ReplaceImage sourcePath="Textures\us_superchinook_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\helicos\ch-47b_super_chinook\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_superchinook_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\helicos\ch-47b_super_chinook_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_superchinook_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="1"
+								  row="6"/>
+			</Component>
+			<Component name="Usa23" type="Optional" text="LVTP-7A1 chocolate desert camouflage">
+				<ReplaceImage sourcePath="Textures\us_lvtp_7a1_desert_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\usmc\lvtp_7a1\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_lvtp_7a1_desert_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\usmc\lvtp_7a1_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_lvtp_7a1_desert_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\usmc\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="0"
+								  row="1"/>
+			</Component>
+			<Component name="Usa24" type="Optional" text="M1 Abrams and CMD M1 Abrams">
+				<Component name="us_m1abram_desert" type="Exclusive" text="Desert camouflage">
+				<ReplaceImage sourcePath="Textures\us_m1abram_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1_abrams\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m1abram_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1_abrams_mid\tsccombda_combineddatexture01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m1abram_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="6"
+								  row="0"/>
+				</Component>
+				<Component name="us_m1abram_woodland" type="Exclusive" text="Woodland camouflage">
+				<ReplaceImage sourcePath="Textures\us_m1abram_high_woodland.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1_abrams\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m1abram_mid_woodland.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1_abrams_mid\tsccombda_combineddatexture01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m1abram_low_woodland.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="6"
+								  row="0"/>
+				</Component>
+			</Component>
+			<Component name="Usa25" type="Optional" text="M1A1HC/HA Dual Texture camouflage">
+				<ReplaceImage sourcePath="Textures\us_m1a1_hcha_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1a1ha_abrams\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m1a1_hcha_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1a1ha_abrams_mid\tsccombda_combineddatexture01.tgv"/>			  
+				<ReplaceImageTile sourcePath="Textures\us_m1a1_hcha_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="4"
+								  row="0"/>
+			</Component>
+			<Component name="Usa26" type="Optional" text="M1IP Abrams">
+				<Component name="us_m1ipabram_silver" type="Exclusive" text="'The Hunter' skin">
+				<ReplaceImage sourcePath="Textures\us_m1ipabram_high_silver.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1ip_abrams\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m1ipabram_mid_silver.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1ip_abrams_mid\tsccombda_combineddatexture01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m1ipabram_low_silver.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="2"
+								  row="0"/>
+				</Component>
+				<Component name="us_m1ipabram_stromtrooper" type="Exclusive" text="'Vader's Fist' Edition">
+				<ReplaceImage sourcePath="Textures\us_m1ipabram_high_stromtrooper.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1ip_abrams\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m1ipabram_mid_stromtrooper.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1ip_abrams_mid\tsccombda_combineddatexture01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m1ipabram_low_stromtrooper.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="2"
+								  row="0"/>
+				</Component>
+			</Component>
+			<Component name="Usa27" type="Optional" text="M1A1 Abrams">
+				<Component name="us_m1a1_Desertstorm" type="Exclusive" text="'M1A1 Desert Storm">
+				<ReplaceImage sourcePath="Textures\us_m1a1_Desertstorm_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1a1_abrams\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m1a1_Desertstorm_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1a1_abrams_mid\tsccombda_combineddatexture01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m1a1_Desertstorm_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="5"
+								  row="0"/>
+				</Component>
+			</Component>
+			<Component name="Usa28" type="Optional" text="M113 ACAV 'Black Horse' Vietnam skin">
+				<ReplaceImage sourcePath="Textures\us_m113_acav_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m113_acav\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m113_acav_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m113_acav_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m113_acav_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="1"
+								  row="2"/>
+			</Component>
+			<Component name="Usa29" type="Optional" text="M113A1 desert skin">
+				<ReplaceImage sourcePath="Textures\us_m113a1_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m113a2\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m113a1_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m113a2_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m113a1_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="2"
+								  row="2"/>
+			</Component>
+			<Component name="Usa30" type="Optional" text="M113A3 Ambulance skin">
+				<ReplaceImage sourcePath="Textures\us_m113a3_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m113a3\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m113a3_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m113a3_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m113a3_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="6"
+								  row="1"/>
+			</Component>
+			<Component name="Usa31" type="Optional" text="M2 Bradley">
+				<Component name="us_m2bradley_autumn" type="Exclusive" text="Autumn camouflage">
+				<ReplaceImage sourcePath="Textures\us_m2bradley_autumn_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m2_bradley_ifv\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m2bradley_autumn_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m2_bradley_ifv_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m2bradley_autumn_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="0"
+								  row="0"/>
+				</Component>
+				<Component name="us_m2bradley_desert" type="Exclusive" text="Desert camouflage">
+				<ReplaceImage sourcePath="Textures\us_m2bradley_desert_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m2_bradley_ifv\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m2bradley_desert_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m2_bradley_ifv_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m2bradley_desert_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="0"
+								  row="0"/>
+				</Component>
+			</Component>
+			<Component name="Usa32" type="Optional" text="M270 ATACMS">
+				<Component name="us_m270_desert" type="Exclusive" text="desert camouflage">
+				<ReplaceImage sourcePath="Textures\us_m270_desert_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m270_mlrs\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m270_desert_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m270_mlrs_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m270_desert_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="0"
+								  row="1"/>
+				</Component>
+			</Component>
+			<Component name="Usa33" type="Optional" text="M35 Cargo in OD">
+				<ReplaceImage sourcePath="Textures\us_m35cargo_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m35_cargo\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m35cargo_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m35_cargo_mid\tsccombda_combineddatexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_m35cargo_noalpha_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m35_cargo_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_m35cargo_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="6"
+								  row="7"/>
+			</Component>
+			<Component name="Usa34" type="Optional" text="MBT-70 Woodland camouflage">
+				<ReplaceImage sourcePath="Textures\us_mbt70_woodland_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\mbt-70\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_mbt70_woodland_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\mbt-70_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_mbt70_woodland_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="2"
+								  row="4"/>
+			</Component>
+			<Component name="Usa35" type="Optional" text="MH-60L DAP with US Coast Guard markings">
+				<ReplaceImage sourcePath="Textures\us_mh-60l_dap_coastguard_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\helicos\mh-60l_dap\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\us_mh-60l_dap_coastguard_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\helicos\mh-60l_dap_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\us_mh-60l_dap_coastguard_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="1"
+								  row="4"/>
+			</Component>
+			<Component name="Usa36" type="Optional" text="MH-60 Seahawk skin">
+				<ReplaceImage sourcePath="Textures\us_uh60_navy_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\helicos\uh-60a_black_hawk\tsccombds_combineddstexture01.tgv"/>	
+				<ReplaceImage sourcePath="Textures\us_uh60_navy_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\helicos\uh-60a_black_hawk_mid\tscother_diffusetexturenoalpha01.tgv"/>		
+				<ReplaceImageTile sourcePath="Textures\us_uh60_navy_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="6"
+								  row="0"/>
+			</Component>
+			<Component name="Usa37" type="Optional" text="UH-1C Heavy Hog with Marine markings">
+				<ReplaceImage sourcePath="Textures\us_uh-1c_hog_marine_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\helicos\uh-1c_heavy_hog\tsccombds_combineddstexture01.tgv"/>	
+				<ReplaceImage sourcePath="Textures\us_uh-1c_hog_marine_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\helicos\uh-1c_heavy_hog_mid\tscother_diffusetexturenoalpha01.tgv"/>		
+				<ReplaceImageTile sourcePath="Textures\us_uh-1c_hog_marine_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="2"
+								  row="1"/>
+			</Component>
+			<Component name="Usa38" type="Optional" text="M998 Humvee with UN paintings">
+				<ReplaceImage sourcePath="Textures\us_humvee_un_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1025_humvee\tsccombdas_combineddastexture01.tgv"/>	
+				<ReplaceImage sourcePath="Textures\us_humvee_un_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\m1025_humvee_mid\tscother_diffusetexturenoalpha01.tgv"/>		
+				<ReplaceImageTile sourcePath="Textures\us_humvee_un_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\us\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="3"
+								  row="3"/>
+			</Component>
+		</Component>
+		<Component name="West german" type="Optional" text="West Germany">
+			<Component name="west-german1" type="Optional" text="PALR Milan 1 and 2">
+				<Component name="west-german-atgmteam1" type="Exclusive" text="Dark Green and Erbsenmuster camouflage">
+					<ReplaceImage sourcePath="Textures\west_german_atgmteam.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\infanterie\jagd_kommando\tscother_diffusetexturenoalpha01.tgv"/>   
+				</Component>
+			</Component>
+			<Component name="west-german2" type="Optional" text="Bundesgrenzschutz">
+				<Component name="west-german-bgs1" type="Exclusive" text="Olive Drab">
+					<ReplaceImage sourcePath="Textures\west_german_bgs.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\infanterie\bgs\tscother_diffusetexturenoalpha01.tgv"/>   
+				</Component>
+			</Component>
+			<Component name="west-german3" type="Optional" text="Fallschirmjager">
+				<Component name="west-german-fallschirmjaeger1" type="Exclusive" text="Sumpfmuster camouflage">
+					<ReplaceImage sourcePath="Textures\west_german_fallschirmjager.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\infanterie\fallschirmjager\tscother_diffusetexturenoalpha01.tgv"/>     
+				</Component>
+			</Component>
+			<Component name="west-german4" type="Optional" text="Fernspaher">
+				<Component name="west-german-fernspaher1" type="Exclusive" text="Erbsenmuster camouflage">
+					<ReplaceImage sourcePath="Textures\west_german_fernspaher.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\infanterie\fernspaher\tscother_diffusetexturenoalpha01.tgv"/>    
+				</Component>
+			</Component>
+			<Component name="west-german5" type="Optional" text="Jager">
+				<Component name="west-german-jager1" type="Exclusive" text="Feldgrau uniform">
+					<ReplaceImage sourcePath="Textures\west_german_jager.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\infanterie\jager\tscother_diffusetexturenoalpha01.tgv"/>  
+				</Component>
+			</Component>
+			<Component name="west-german6" type="Optional" text="Fliegerfaust and Deckungsgruppe">
+				<Component name="west-german-manpad1" type="Exclusive" text="Sumpfmuster camouflage">
+					<ReplaceImage sourcePath="Textures\west_german_manpad.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\infanterie\fliegerfaust\tscother_diffusetexturenoalpha01.tgv"/>  
+				</Component>
+			</Component>
+			<Component name="west-german7" type="Optional" text="Panzergrenadier">
+				<Component name="west-german-panzergrenadier0" type="Exclusive" text="Splittermuster camouflage with eyewear">
+					<ReplaceImage sourcePath="Textures\west_german_panzergrenadier0.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\infanterie\panzergrenadier_mg\tscother_diffusetexturenoalpha01.tgv"/>  
+				</Component>
+				<Component name="west-german-panzergrenadier1" type="Exclusive" text="Splittermuster camouflage">
+					<ReplaceImage sourcePath="Textures\west_german_panzergrenadier.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\infanterie\panzergrenadier_mg\tscother_diffusetexturenoalpha01.tgv"/>  
+				</Component>
+			</Component>
+			<Component name="west-german8" type="Optional" text="Leopard 2 'Imperator' Edition">
+					<ReplaceImage sourcePath="Textures\west_german_leopard2_storm_high.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\leopard_2\tsccombds_combineddstexture01.tgv"/>  
+					<ReplaceImage sourcePath="Textures\west_german_leopard2_strom_mid.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\leopard_2_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\west_german_leopard2_strom_low.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\lods\tscother_diffusetexturenoalpha01.tgv"
+						column="1"
+						row="4"/>
+			</Component>
+		</Component>
+	</Component>
+	<Component name="Pact" type="Optional" text="REDFOR">
+		<Component name="china" type="Optional" text="China">	
+			<Component name="china1" type="Optional" text="MANPADS and Tanke Shashou (PLA RR Team)">
+				<Component name="china_laad1" type="Exclusive" text="Type 07 Digital camouflage">
+					<ReplaceImage sourcePath="Textures\china_laad.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\hong_ying_5a\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_laad2" type="Exclusive" text="Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\china_laad2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\hong_ying_5a\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_laad3" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\china_laad3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\hong_ying_5a\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="china2" type="Optional" text="Li Jian (PLA Special Forces)">
+				<Component name="china_specialforce1" type="Exclusive" text="Type 07 Digital camouflage">
+					<ReplaceImage sourcePath="Textures\china_li-jian.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\li_jian\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_specialforce2" type="Exclusive" text="Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\china_li-jian2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\li_jian\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_specialforce3" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\china_li-jian3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\li_jian\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="china3" type="Optional" text="Lie Ren (PLA Hunters)">
+				<Component name="china_scout1" type="Exclusive" text="Type 07 Digital camouflage">
+					<ReplaceImage sourcePath="Textures\china_scout.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\lie_ren\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_scout2" type="Exclusive" text="Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\china_scout2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\lie_ren\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_scout3" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\china_scout3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\lie_ren\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="china4" type="Optional" text="Lu Zhandui (PLAN Marine Corps)">
+				<Component name="china_marine1" type="Exclusive" text="Type 07 Digital camouflage">
+					<ReplaceImage sourcePath="Textures\china_marine.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\lu_zhandui\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_marine2" type="Exclusive" text="Type 07 Ocean camouflage">
+					<ReplaceImage sourcePath="Textures\china_marine2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\lu_zhandui\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_marine3" type="Exclusive" text="Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\china_marine3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\lu_zhandui\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_marine4" type="Exclusive" text="Oceanic Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\china_marine4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\lu_zhandui\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_marine5" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\china_marine5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\lu_zhandui\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				
+			</Component>
+			<Component name="china5" type="Optional" text="Zhanshi (PLA Riflemen) and Zhi Hui Ban (PLA Command Squad)">
+				<Component name="china_riflemen1" type="Exclusive" text="Type 07 Digital camouflage">
+					<ReplaceImage sourcePath="Textures\china_riflemen.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\zhanshi\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_riflemen2" type="Exclusive" text="Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\china_riflemen2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\zhanshi\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_riflemen3" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\china_riflemen3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\zhanshi\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="china6" type="Optional" text="Yubeiyi (PLA Militia)">
+				<Component name="china_reserve" type="Exclusive" text="Type 07 Digital camouflage">
+					<ReplaceImage sourcePath="Textures\china_reserve.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\yubeiyi\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_reserve2" type="Exclusive" text="Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\china_reserve2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\yubeiyi\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="china_reserve3" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\china_reserve3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\infanterie\yubeiyi\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="china7" type="Optional" text="ZTZ-85IIA 'Bigeye' skin">
+				<ReplaceImage sourcePath="Textures\chi_type85a_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\type_85_iim\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\chi_type85a_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\type_85_iim_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\chi_type85a_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+								  targetContentPath="pc\texture\assets\3d\units\chi\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="6"
+								  row="1"/>
+			</Component>
+			<Component name="china8" type="Optional" text="SX250 Cargo 3-color PLA camo">
+				<ReplaceImage sourcePath="Textures\chi_sx250cargo_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\sx250_cargo\tsccombds_combineddstexture01.tgv"/>
+				<ReplaceImage sourcePath="Textures\chi_sx250cargo_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\chi\sx250_cargo_mid\tscother_diffusetexturenoalpha01.tgv"/>
+				<ReplaceImageTile sourcePath="Textures\chi_sx250cargo_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+								  targetContentPath="pc\texture\assets\3d\units\chi\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="1"
+								  row="6"/>
+			</Component>
+		</Component>
+		<Component name="East-German" type="Optional" text="East Germany">
+			<Component name="east_ger1" type="Optional" text="Mot.-Schutzen, Fuhrungstrupp and Specialized teams">
+				<Component name="east_ger_Schutzen1" type="Exclusive" text="Flachtarnenmuster Digital camouflage">
+					<ReplaceImage sourcePath="Textures\east_ger_schutzen.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rda\infanterie\schutzen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="east_ger2" type="Optional" text="FJB-40 and LStR-40">
+				<Component name="east_ger_fallschirmjager1" type="Exclusive" text="Kampfanzug Digital camouflage">
+					<ReplaceImage sourcePath="Textures\east_ger_recon.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rda\infanterie\fallschirmjager\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="east_ger3" type="Optional" text="Kampfschwimmer">
+				<Component name="east_ger_kampschwimmer1" type="Exclusive" text="Kampfanzug Digital camouflage">
+					<ReplaceImage sourcePath="Textures\east_ger_recon_sniper.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rda\infanterie\kampschwimmer\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="east_ger4" type="Optional" text="Grenzer">
+				<Component name="east_ger_grenzer1" type="Exclusive" text="Kampfanzug Digital camouflage">
+					<ReplaceImage sourcePath="Textures\east_ger_grenzer.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rda\infanterie\grenzer\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="east_ger5" type="Optional" text="Spezialaufklarer">
+				<Component name="east_ger_aufklarer1" type="Exclusive" text="Kampfanzug Digital camouflage">
+					<ReplaceImage sourcePath="Textures\east_ger_kommando_aufklarer.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rda\infanterie\kommando_aufklarer\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="east_ger6" type="Optional" text="Panzerjager">
+				<Component name="east_panzerjager1" type="Exclusive" text="Flachtarnenmuster Digital camouflage">
+					<ReplaceImage sourcePath="Textures\east_ger_panzerjager.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rda\infanterie\panzerjager\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="east_ger7" type="Optional" text="Sturmpioniere">
+				<Component name="east_ger_pionier1" type="Exclusive" text="Kampfanzug Digital camouflage">
+					<ReplaceImage sourcePath="Textures\east_ger_pionier.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rda\infanterie\pionier\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="east_ger8" type="Optional" text="Reserveschutzen">
+				<Component name="east_ger_reserve1" type="Exclusive" text="Kampfanzug Digital camouflage">
+					<ReplaceImage sourcePath="Textures\east_ger_reserveschutzen.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rda\infanterie\reserveschutzen\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="east_ger9" type="Optional" text="Wachregiment">
+				<Component name="east_ger_wachregiment" type="Exclusive" text="Ceremonial Uniform">
+					<ReplaceImage sourcePath="Textures\east_ger_warchregiment.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rda\infanterie\wachregiment\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="east_ger_wachregiment2" type="Exclusive" text="Green Ceremonial Uniform">
+					<ReplaceImage sourcePath="Textures\east_ger_warchregiment2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\rda\infanterie\wachregiment\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+		</Component>
+		<Component name="nk" type="Optional" text="North Korea">
+			<Component name="nk1" type="Optional" text="Gongbyong (KPA Engineers)">
+				<Component name="nk_engineer1" type="Exclusive" text="Standard Uniform">
+					<ReplaceImage sourcePath="Textures\nk_engineer.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nkpa_engineers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_engineer2" type="Exclusive" text="Type 07 Digital camouflage (from the Red Dawn movie)">
+					<ReplaceImage sourcePath="Textures\nk_engineer2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nkpa_engineers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="nk2" type="Optional" text="Bochongsu (KPA Riflemen)">
+				<Component name="nk_riflemen1" type="Exclusive" text="Standard Uniform">
+					<ReplaceImage sourcePath="Textures\nk_riflemen.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nkpa_rifles\tsccombda_combineddatexture01.tgv"/>
+				</Component>
+				<Component name="nk_riflemen2" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\nk_riflemen2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nkpa_rifles\tsccombda_combineddatexture01.tgv"/>
+				</Component>
+				<Component name="nk_riflemen3" type="Exclusive" text="Type 07 Digital camouflage (from the Red Dawn movie)">
+					<ReplaceImage sourcePath="Textures\nk_riflemen3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nkpa_rifles\tsccombda_combineddatexture01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="nk3" type="Optional" text="Jeongchaldae (NK Special Operation Force)">
+				<Component name="nk_scout1" type="Exclusive" text="Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\nk_scout.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nkpa_scout\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_scout2" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\nk_scout2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nkpa_scout\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_scout3" type="Exclusive" text="Type 07 Digital camouflage (from the Red Dawn movie)">
+					<ReplaceImage sourcePath="Textures\nk_scout3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nkpa_scout\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="nk4" type="Optional" text="MANPADS and Jihwi-Ban (KPA Command Squad)">
+				<Component name="nk_manpad1" type="Exclusive" text="Standard Uniform">
+					<ReplaceImage sourcePath="Textures\nk_strela2m.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nkpa_strela_2m\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_manpad2" type="Exclusive" text="Type 07 Digital camouflage (from the Red Dawn movie)">
+					<ReplaceImage sourcePath="Textures\nk_strela2m2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nkpa_strela_2m\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="nk5" type="Optional" text="Gongbobyong (KPA Paratroopers)">
+				<Component name="nk_light_infantry1" type="Exclusive" text="Standard Uniform">
+					<ReplaceImage sourcePath="Textures\nk_soflightInfantry.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nksof_light_infantry\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_light_infantry2" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\nk_soflightInfantry2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nksof_light_infantry\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_light_infantry3" type="Exclusive" text="Type 07 Digital camouflage (from the Red Dawn movie)">
+					<ReplaceImage sourcePath="Textures\nk_soflightInfantry3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nksof_light_infantry\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="nk6" type="Optional" text="Jeogockdae (KPA Marines)">
+				<Component name="nk_special_force_marine1" type="Exclusive" text="TTsMKK tricolour disprutive pattern">
+					<ReplaceImage sourcePath="Textures\nk_sofmarine.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nksof_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_special_force_marine2" type="Exclusive" text="Type 07 Digital camouflage (from the Red Dawn movie)">
+					<ReplaceImage sourcePath="Textures\nk_sofmarine2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nksof_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="nk7" type="Optional" text="Yuckjeondae (KPA Elite Motorized Light Infantry)">
+				<Component name="nk_special_force1" type="Exclusive" text="Woodland camouflage">
+					<ReplaceImage sourcePath="Textures\nk_sofpara.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nksof_paras\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_special_force2" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\nk_sofpara2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nksof_paras\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_special_force3" type="Exclusive" text="Type 07 Digital camouflage (from the Red Dawn movie)">
+					<ReplaceImage sourcePath="Textures\nk_sofpara3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\nksof_paras\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="nk8" type="Optional" text="Juckwidae (Worker-Peasants' Red Guard Militia)">
+				<Component name="nk_redguard1" type="Exclusive" text="Standard uniform">
+					<ReplaceImage sourcePath="Textures\nk_redgurad.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\red_guards\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_redguard2" type="Exclusive" text="Duck Hunter camouflage">
+					<ReplaceImage sourcePath="Textures\nk_redgurad2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\red_guards\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="nk_redguard3" type="Exclusive" text="Type 07 Digital camouflage (from the Red Dawn movie)">
+					<ReplaceImage sourcePath="Textures\nk_redgurad3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3b.dat"
+							  targetContentPath="pc\texture\assets\3d\units\nk\infanterie\red_guards\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+		</Component>
+		<Component name="poland" type="Optional" text="Poland">	
+			<Component name="poland1" type="Optional" text="Niebieskie Berety">
+				<Component name="pol_niebieskie berety" type="Exclusive" text="wz93 Pantera camouflage">
+					<ReplaceImage sourcePath="Textures\pol_niebieskie berety.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\pol\infanterie\niebieskie_berety\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="poland2" type="Optional" text="Zwiadowcy">
+				<Component name="pol_scout" type="Exclusive" text="wz93 Pantera camouflage">
+					<ReplaceImage sourcePath="Textures\pol_scout.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\pol\infanterie\eclaireurs\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="poland3" type="Optional" text="Piechota Zmech. and Sztab Dowodzenia">
+				<Component name="pol_riflemen" type="Exclusive" text="wz93 Pantera camouflage">
+					<ReplaceImage sourcePath="Textures\pol_strzelcy_konni.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\pol\infanterie\strzelcy_konni\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="poland4" type="Optional" text="Komandosi, Spadochroniarze, Saperzy Szturmowi and SPG-9D">
+				<Component name="pol_specialforce_shock" type="Exclusive" text="wz93 Pantera camouflage">
+					<ReplaceImage sourcePath="Textures\pol_desantowa.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\pol\infanterie\desantowa\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="poland5" type="Optional" text="PPK Fagot and Konkurs">
+				<Component name="pol_fagot" type="Exclusive" text="wz93 Pantera camouflage">
+					<ReplaceImage sourcePath="Textures\pol_fagot.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\pol\infanterie\ppk_fagot\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="poland6" type="Optional" text="Formoza">
+				<Component name="pol_formoza" type="Exclusive" text="wz93 Pantera camouflage">
+					<ReplaceImage sourcePath="Textures\pol_formoza.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\pol\infanterie\formoza\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="poland7" type="Optional" text="PPZR Strzala-2 and Grom">
+				<Component name="pol_strzala_21" type="Exclusive" text="wz93 Pantera camouflage">
+					<ReplaceImage sourcePath="Textures\pol_strzala_2.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\pol\infanterie\strzala_2\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="poland8" type="Optional" text="Saperzy">
+				<Component name="pol_saperzy" type="Exclusive" text="wz93 Pantera camouflage">
+					<ReplaceImage sourcePath="Textures\pol_saperzy.dds"
+						  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						  targetContentPath="pc\texture\assets\3d\units\pol\infanterie\saperzy\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="poland9" type="Optional" text="PT-91 Twardy 3-color Polish Army camo">
+					<ReplaceImage sourcePath="Textures\east_ger_pt-91_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\pol\pt-91_twardy\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\east_ger_pt-91_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\pol\pt-91_twardy_mid\tscother_diffusetexturenoalpha01.tgv"/>			  
+					<ReplaceImageTile sourcePath="Textures\east_ger_pt-91_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\pol\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="1"
+							  row="4"/>
+			</Component>
+		</Component>
+		<Component name="USSR" type="Optional" text="USSR">
+			<Component name="ussr1" type="Optional" text="Komandnoe Otdelenie">
+				<Component name="ussr_command_squad1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_command_squad.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_command_squad2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_command_squad2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_command_squad3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_command_squad3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_command_squad4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_command_squad4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\command_squad\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr2" type="Optional" text="Gornostrelki">
+				<Component name="ussr_gornostrelki1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_gornostrelki.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\gornostrelki\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_gornostrelki2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_gornostrelki2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\gornostrelki\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_gornostrelki3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_gornostrelki3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\gornostrelki\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_gornostrelki4" type="Exclusive" text="Mountain Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_gornostrelki4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\gornostrelki\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_gornostrelki55" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_gornostrelki5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\gornostrelki\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr3" type="Optional" text="Morskaya Pehota">
+				<Component name="ussr_morskaya_pehota1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_morskaya_pehota.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\morskaya_pehota\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_morskaya_pehota2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_morskaya_pehota2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\morskaya_pehota\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_morskaya_pehota3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_morskaya_pehota3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\morskaya_pehota\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_morskaya_pehota4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_morskaya_pehota4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\morskaya_pehota\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr4" type="Optional" text="Motorstrelki">
+				<Component name="ussr_motorstrelki1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_motorstrelki.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\motorstrelki\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_motorstrelki2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_motorstrelki2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\motorstrelki\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_motorstrelki3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_motorstrelki3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\motorstrelki\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_motorstrelki4" type="Exclusive" text="Mountain Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_motorstrelki4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\motorstrelki\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_motorstrelki5" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_motorstrelki5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\motorstrelki\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr5" type="Optional" text="PTUR Faktoria">
+				<Component name="ussr_fagot1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_ptur_fagot.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\ptur_fagot\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_fagot2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_ptur_fagot2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\ptur_fagot\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_fagot3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_ptur_fagot3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\ptur_fagot\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_fagot4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_ptur_fagot4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\ptur_fagot\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr6" type="Optional" text="PTUR Konkurs">
+				<Component name="ussr_faktoria1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_ptur_fatoria.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\ptur_faktoria\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_faktoria2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_ptur_fatoria2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\ptur_faktoria\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_faktoria3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_ptur_fatoria3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\ptur_faktoria\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_faktoria4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_ptur_fatoria4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\ptur_faktoria\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr7" type="Optional" text="PZRK Igla">
+				<Component name="ussr_igla1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_pzrk_igla.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\pzrk_igla\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_igla2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_pzrk_igla2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\pzrk_igla\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_igla3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_pzrk_igla3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\pzrk_igla\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_igla4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_pzrk_igla4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\pzrk_igla\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr8" type="Optional" text="PZRK Strela-3">
+				<Component name="ussr_Strela1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_pzrk_strela_2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\pzrk_strela_2\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_Strela2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_pzrk_strela_22.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\pzrk_strela_2\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_Strela3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_pzrk_strela_23.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\pzrk_strela_2\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_Strela4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_pzrk_strela_24.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\pzrk_strela_2\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr9" type="Optional" text="Razvedka">
+				<Component name="ussr_reserve1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_reserve.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\razvedka\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_reserve2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_reserve2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\razvedka\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_reserve3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_reserve3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\razvedka\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_reserve4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_reserve4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\razvedka\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr10" type="Optional" text="Sapery">
+				<Component name="ussr_sapery1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_sapery.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\sapery\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_sapery2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_sapery2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\sapery\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_sapery3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_sapery3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\sapery\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_sapery4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_sapery4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\sapery\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr11" type="Optional" text="Spetsnaz">
+				<Component name="ussr_spetsnaz1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetnaz.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_spetsnaz2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetnaz2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_spetsnaz3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetnaz3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_spetsnaz4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetnaz4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr12" type="Optional" text="Spetsnaz GRU">
+				<Component name="ussr_spetsnaz_gru1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetsnaz_gru.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz_gru\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_spetsnaz_gru2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetsnaz_gru2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz_gru\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_spetsnaz_gru3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetsnaz_gru3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz_gru\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_spetsnaz_gru4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetsnaz_gru4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz_gru\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr13" type="Optional" text="Spetsnaz VMF">
+				<Component name="ussr_spetsnaz_vmf1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetsnaz_vmf.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz_vmf\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_spetsnaz_vmf2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetsnaz_vmf2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz_vmf\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_spetsnaz_vmf3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetsnaz_vmf3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz_vmf\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_spetsnaz_vmf4" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_spetsnaz_vmf4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\spetsnaz_vmf\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr14" type="Optional" text="VDV">
+				<Component name="ussr_vsv1" type="Exclusive" text="EMR Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_vdv.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\vdv\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_vdv2" type="Exclusive" text="Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_vdv2.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\vdv\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_vdv3" type="Exclusive" text="KLMK Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_vdv3.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\vdv\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_vdv4" type="Exclusive" text="Mountain Flora Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_vdv4.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\vdv\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_vdv5" type="Exclusive" text="SURPAT Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_vdv5.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\vdv\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+				<Component name="ussr_vdv6" type="Exclusive" text="Modern Warfare 2 Camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_vdv6.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\infanterie\vdv\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
+			</Component>
+			<Component name="ussr15" type="Optional" text="BTR-80 with UN paintings">
+					<ReplaceImage sourcePath="Textures\ussr_btr_80_un_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\btr-80\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\ussr_btr_80_un_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\btr-80_mid\tscother_diffusetexturenoalpha01.tgv"/>			  
+					<ReplaceImageTile sourcePath="Textures\ussr_btr_80_un_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\lods\tscother_diffusetexturenoalpha03.tgv"
+							  column="3"
+							  row="1"/>
+			</Component>
+			<Component name="ussr16" type="Optional" text="Mi-24VP with UN paintings">
+					<ReplaceImage sourcePath="Textures\ussr_mi-24vp_UN_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\helicos\mi-24vp\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\ussr_mi-24vp_UN_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\helicos\mi-24vp_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\ussr_mi-24vp_UN_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\lods\tscother_diffusetexturenoalpha02.tgv"
+							  column="1"
+							  row="7"/>
+			</Component>
+			<Component name="ussr17" type="Optional" text="Mi-28N Night Hunter skin">
+					<ReplaceImage sourcePath="Textures\ussr_mi28_gray_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\helicos\mi-28a_havoc\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\ussr_mi28_gray_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\helicos\mi-28a_havoc_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\ussr_mi28_gray_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\lods\tscother_diffusetexturenoalpha02.tgv"
+							  column="0"
+							  row="7"/>
+			</Component>
+			<Component name="ussr18" type="Optional" text="ZSU-23-4MZ Biryusa">
+				<Component name="ZSU23-4m_1" type="Exclusive" text="Anglerfish Team's Biryusa">
+					<ReplaceImage sourcePath="Textures\ussr_zsu23_4m_girlunpanzer_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\zsu_23_4m_biryusa\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\ussr_zsu23_4m_girlunpanzer_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\zsu_23_4m_biryusa_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\ussr_zsu23_4m_girlunpanzer_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="3"
+							  row="0"/>
+				</Component>
+				<Component name="ZSU23-4m_2" type="Exclusive" text="Three-tone Egyptian camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_zsu23_4m_desert_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\zsu_23_4m_biryusa\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\ussr_zsu23_4m_desert_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\zsu_23_4m_biryusa_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\ussr_zsu23_4m_desert_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="3"
+							  row="0"/>
+				</Component>
+				<Component name="ZSU23-4m_3" type="Exclusive" text="Khaki desert camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_zsu23_4m_desert_plain_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\zsu_23_4m_biryusa\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\ussr_zsu23_4m_desert_plain_mid.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\zsu_23_4m_biryusa_mid\tscother_diffusetexturenoalpha01.tgv"/>
+					<ReplaceImageTile sourcePath="Textures\ussr_zsu23_4m_desert_plain_low.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\lods\tscother_diffusetexturenoalpha01.tgv"
+							  column="3"
+							  row="0"/>
+				</Component>
+			</Component>
+			<Component name="ussr19" type="Optional" text="T-34-86 OBR. 1969">
+				<Component name="t34/85_1" type="Optional" text="T-34-86 OBR. 1969/Snow camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_t34_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\t-34\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\ussr_t34_mid.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\urss\t-34_mid\tscother_diffusetexturenoalpha01.tgv"/>			  
+					<ReplaceImageTile sourcePath="Textures\ussr_t34_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\urss\lods\tscother_diffusetexturenoalpha01.tgv"
+								  column="2"
+								  row="7"/>
+				</Component>
+			</Component>
+			<Component name="ussr20" type="Optional" text="Su-122-54">
+				<Component name="su-122-54_1" type="Optional" text="Su-122-54/Snow camouflage">
+					<ReplaceImage sourcePath="Textures\ussr_su122-54_high.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\urss\su-122-54\tsccombds_combineddstexture01.tgv"/>
+					<ReplaceImage sourcePath="Textures\ussr_su122-54_mid.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\urss\su-122-54_mid\tscother_diffusetexturenoalpha01.tgv"/>			  
+					<ReplaceImageTile sourcePath="Textures\ussr_su122-54_low.dds"
+								  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+								  targetContentPath="pc\texture\assets\3d\units\urss\lods\tscother_diffusetexturenoalpha02.tgv"
+								  column="2"
+								  row="0"/>
+				</Component>
+			</Component>
+		</Component>
+	</Component>
+</Component>	
+
+  </InstallCommands>
+
+</WargameModInstallerConfig>
