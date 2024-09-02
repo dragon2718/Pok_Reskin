@@ -1,0 +1,65 @@
+ERROR: 4/4/2024 8:06:41 AM: 
+System.NotSupportedException: Unsupported PixelFormat B8G8R8A8_UNORM
+   at WargameModInstaller.Utilities.Image.TGV.TgvUtilities.GetTgvFromPixelFormat(PixelFormats pixelFormat)
+   at WargameModInstaller.Infrastructure.Image.TgvBinWriter.Write(TgvImage file)
+   at WargameModInstaller.Infrastructure.Image.TgvNoMipMapBinWriter.Write(TgvImage file)
+   at WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteInternal(CmdExecutionContext context, Nullable`1 token)
+   at WargameModInstaller.Services.Commands.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   at WargameModInstaller.Services.Commands.EdataCmdGroupExecutor.ExecuteInternal(CmdExecutionContext context, Nullable`1 token)
+   at WargameModInstaller.Services.Commands.CmdGroupExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   at WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+ERROR: 4/4/2024 8:14:34 AM: 
+System.NotSupportedException: Unsupported PixelFormat B8G8R8A8_UNORM
+   at WargameModInstaller.Utilities.Image.TGV.TgvUtilities.GetTgvFromPixelFormat(PixelFormats pixelFormat)
+   at WargameModInstaller.Infrastructure.Image.TgvBinWriter.Write(TgvImage file)
+   at WargameModInstaller.Infrastructure.Image.TgvNoMipMapBinWriter.Write(TgvImage file)
+   at WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteInternal(CmdExecutionContext context, Nullable`1 token)
+   at WargameModInstaller.Services.Commands.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   at WargameModInstaller.Services.Commands.EdataCmdGroupExecutor.ExecuteInternal(CmdExecutionContext context, Nullable`1 token)
+   at WargameModInstaller.Services.Commands.CmdGroupExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   at WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+ERROR: 4/4/2024 8:41:53 AM: 
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at WargameModInstaller.Common.Extensions.CancellationTokenExtensions.ThrowIfCanceledAndNotNull(Nullable`1 obj)
+   at WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteInternal(CmdExecutionContext context, Nullable`1 token)
+   at WargameModInstaller.Services.Commands.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   at WargameModInstaller.Services.Commands.EdataCmdGroupExecutor.ExecuteInternal(CmdExecutionContext context, Nullable`1 token)
+   at WargameModInstaller.Services.Commands.CmdGroupExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   at WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+

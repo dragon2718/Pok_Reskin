@@ -223,6 +223,11 @@
 				</Component>
 			</Component>
 			<Component name="CANADA6" type="Optional" text="Canadian Rifles and Eryx">
+				<Component name="Canada_Riflemen0" type="Exclusive" text="DPM camouflage with eyewear">
+					<ReplaceImage sourcePath="Textures\canadian_riflemen0.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\can\infanterie\canadian_rifles\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
 				<Component name="Canada_Riflemen1" type="Exclusive" text="DPM camouflage">
 					<ReplaceImage sourcePath="Textures\canadian_riflemen.dds"
 							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
@@ -353,6 +358,11 @@
 				</Component>
 			</Component>
 			<Component name="french3" type="Optional" text="Chasseurs, Reservistes and Sapeurs">
+				<Component name="fr_riflemen0" type="Exclusive" text="Centre Europe camouflage with eyewear">
+					<ReplaceImage sourcePath="Textures\fr_riflemen0.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\fr\infanterie\chasseurs\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
 				<Component name="fr_riflemen1" type="Exclusive" text="Centre Europe camouflage">
 					<ReplaceImage sourcePath="Textures\fr_riflemen.dds"
 							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
@@ -1012,6 +1022,11 @@
 		
 		<Component name="UK" type="Optional" text="United Kingdom">	
 			<Component name="uk1" type="Optional" text="Fusiliers">
+				<Component name="ukRiflemen0" type="Exclusive" text="DPM camouflage with eyewear">
+					<ReplaceImage sourcePath="Textures\uk_riflemen0.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\uk\infanterie\fusiliers\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
 				<Component name="ukRiflemen1" type="Exclusive" text="DPM camouflage">
 					<ReplaceImage sourcePath="Textures\uk_riflemen.dds"
 							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
@@ -1466,6 +1481,11 @@
 				</Component>
 			</Component>
 			<Component name="Usa5" type="Optional" text="US Marines and SMAW">
+				<Component name="USMC0" type="Exclusive" text="MARPAT Woodland with eyewear">
+					<ReplaceImage sourcePath="Textures\us_marines0.dds"
+							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+							  targetContentPath="pc\texture\assets\3d\units\us\infanterie\us_marines\tscother_diffusetexturenoalpha01.tgv"/>
+				</Component>
 				<Component name="USMC1" type="Exclusive" text="MARPAT Woodland">
 					<ReplaceImage sourcePath="Textures\us_marines.dds"
 							  targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
@@ -2231,6 +2251,11 @@
 				</Component>
 			</Component>
 			<Component name="west-german7" type="Optional" text="Panzergrenadier">
+				<Component name="west-german-panzergrenadier0" type="Exclusive" text="Splittermuster camouflage with eyewear">
+					<ReplaceImage sourcePath="Textures\west_german_panzergrenadier0.dds"
+						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
+						targetContentPath="pc\texture\assets\3d\units\rfa\infanterie\panzergrenadier_mg\tscother_diffusetexturenoalpha01.tgv"/>  
+				</Component>
 				<Component name="west-german-panzergrenadier1" type="Exclusive" text="Splittermuster camouflage">
 					<ReplaceImage sourcePath="Textures\west_german_panzergrenadier.dds"
 						targetPath="Data\WARGAME\PC\48574\ZZ_3a.dat"
